@@ -895,7 +895,7 @@ svg {
    font-size: 12px;
    line-height: 1.17;
    letter-spacing: 0.04em;
-   color: rgba(46, 47, 66, 0.4);
+   color: var(--navy-blue);
    border: 1px solid rgba(46, 47, 66, 0.4);
    border-radius: 4px;
    background-color: transparent;
@@ -981,9 +981,6 @@ letter-spacing: 0.48px;
    align-items: center;
    justify-content: center;
    fill: transparent;
-   
-
-
 }
 
 .privacy-policy-link{
@@ -1016,8 +1013,6 @@ letter-spacing: 0.48px;
    justify-content: center;
    align-items: center;
    margin:0;
-
-
 }
 
 .checkbox-svg{
@@ -1031,13 +1026,11 @@ letter-spacing: 0.48px;
    fill: transparent;
 }
 
-
 .checkbox-input:checked + .privacy-policy span:first-child{
    background-color: var(--ocean);
    border: none;
    fill: var(--cloud)
 }
-
 
 .input-svg {
    position: absolute;
