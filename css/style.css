@@ -760,6 +760,8 @@ svg {
 
 .footer-svg {
    fill: var(--cloud);
+   margin-left: 16px;
+   
 }
 
 .modal-div {
@@ -1053,8 +1055,9 @@ margin-bottom: 4px;
    fill: #4D5AE5;
 }
 
-.subscribe-div {
+.subscribe-form {
    display: flex;
+   gap: 24px;
 }
 
 .subscribe-title{
@@ -1072,7 +1075,7 @@ margin-bottom: 4px;
    justify-content: center;
    align-items: center;
    margin-bottom: 16px;
-   
+
 
 }
 
@@ -1099,33 +1102,43 @@ margin-bottom: 4px;
    margin-top: 24px;
 }
 
-.subscribe-form {
+.subscribe-input {
    width: 264px;
    height: 40px;
    flex-shrink: 0;
    border-radius: 4px;
-   border: 1px solid var(--WHITE, #FFF);
+   border: 1px solid #ffffff;
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
    background: var(--NAVY-BLUE, #2E2F42);
+   background-color: transparent;
+   font-size: 12px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   padding-left: 16px;
+   color: #ffffff;
 }
 
+
 .subscribe-button {
-   display: inline-flex;
+   display: flex;
    padding: 8px 24px;
    justify-content: center;
    align-items: center;
    gap: 16px;
    border-radius: 4px;
    background: var(--IRIS, #4D5AE5);
+   min-width: 165px;
+   height: 40px;
+   font-family: "Roboto", sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: #ffffff;
+   cursor: pointer;
+   background-color: #4D5AE5;
+   border: none;
+   border-radius: 4px;
+
 }
 
-.footer-subscribe-group {
-   display: flex;
-   gap: 24px;
-   padding-inline-start: 0;
-   justify-content: center;
-   list-style-type: none;
-   padding: 0;
-   margin: 0;
-   align-items: center;
-}
