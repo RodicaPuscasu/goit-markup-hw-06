@@ -1033,7 +1033,7 @@ stroke: var(--OCEAN, #404BBF);
 cursor: pointer;
 }
 
-#user-privacy:checked + .privacy-policy .privacy-policy-span {
+#user-privacy:checked ~ .privacy-policy .privacy-policy-span {
    background-color: var(--ocean);
    border: none;
    fill: var(--cloud)
