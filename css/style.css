@@ -1021,7 +1021,6 @@ letter-spacing: 0.48px;
    flex-shrink: 0;
    fill: var(--OCEAN, #404BBF);
    stroke-width: 1px;
-   stroke: var(--OCEAN, #404BBF);
    cursor: pointer;
    fill: transparent;
 }
@@ -1031,6 +1030,7 @@ letter-spacing: 0.48px;
    border: none;
    fill: var(--cloud)
 }
+
 
 .input-svg {
    position: absolute;
