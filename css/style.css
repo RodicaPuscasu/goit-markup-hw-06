@@ -1034,7 +1034,7 @@ margin-bottom: 4px;
 
 }
 
-.checkbox-input:checked + .privacy-policy-span {
+.checkbox-input:checked.privacy-policy-span {
    background-color: var(--ocean);
    border: none;
    fill: var(--cloud)
