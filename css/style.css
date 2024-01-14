@@ -852,6 +852,7 @@ svg {
    align-items: flex-start;
    gap: 8px;
    border-radius: 4px;
+   margin-bottom: 8px
 }
 
 .contact-form-group>* {
