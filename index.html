@@ -520,12 +520,14 @@
                         <textarea name="user-comment" placeholder="Text input" class="contact-form-element contact-form-element-textarea" id="user-comment"></textarea>
                      </div>
 
-                  
-                  <div class="privacy-policy-agreement">
-                     <input type="checkbox" name="privacy-policy" value="privacy-policy" />
-                     <p class="form-agreement-text">I accept the terms and conditions of the <a href=""   class="privacy-policy-span">Privacy Policy</a></p>
+
+                  <div>
+                     <input type="checkbox" name="user-privacy"  id="user-privacy" value="true" class="checkbox-input visually-hidden">
+                     <label class="privacy-policy" for="user-privacy"><span class="privacy-policy-span">
+                        <svg class="checkbox-svg" width="10" height="8">
+                        <use href="./images/icons.svg#checkbox"></use>
+                     </svg></span>I accept the terms and conditions of the<a href="" class="privacy-policy-link">Privacy Policy</a></label>
                   </div>
-                  
                  <button class="send-button" type="submit">Send</button>
                </form>
              

@@ -179,8 +179,8 @@
 </svg></symbol>
 <symbol id="checkbox" viewBox="0 0 32 32"><path d="M27 4 12 19l-7-7-5 5 12 12L32 9z"/></symbol>
 <symbol>
-<svg xmlns="http://www.w3.org/2000/svg" id="icon-subscribe" width="24" height="24" viewBox="0 0 24 24" fill="none">
-<path d="M24 2L0 13.25L7.66994 15.6172L19.5 6.375L10.5017 16.4913L10.509 16.4936L10.5 16.4913V22L14.8013 17.8183L20.2501 19.5L24 2Z" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" id="checkbox" width="16" height="16" viewBox="0 0 16 16" fill="none">
+  <rect x="0.5" y="0.5" width="15" height="15" rx="1.5" stroke="#2E2F42" stroke-opacity="0.4"/>
 </svg></symbol>
 </defs>
 </svg>
