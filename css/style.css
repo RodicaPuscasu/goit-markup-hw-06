@@ -760,7 +760,6 @@ svg {
 
 .footer-svg {
    fill: var(--cloud);
-   margin-left: 16px;
    
 }
 
@@ -886,6 +885,7 @@ svg {
 
 .comment-div{
    margin-bottom: 16px;
+   width: 100%;
    
 }
 
