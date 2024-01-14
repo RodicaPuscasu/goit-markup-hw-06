@@ -146,11 +146,11 @@
 </symbol>
 <symbol>
 <svg xmlns="http://www.w3.org/2000/svg" id="icon-user" width="18" height="18" viewBox="0 0 18 18" fill="none">
-<g clip-path="url(#clip0_636413_142)">
-<path d="M9 9C10.6575 9 12 7.6575 12 6C12 4.3425 10.6575 3 9 3C7.3425 3 6 4.3425 6 6C6 7.6575 7.3425 9 9 9ZM9 10.5C6.9975 10.5 3 11.505 3 13.5V14.25C3 14.6625 3.3375 15 3.75 15H14.25C14.6625 15 15 14.6625 15 14.25V13.5C15 11.505 11.0025 10.5 9 10.5Z" fill="#4D5AE5"/>
+<g clip-path="url(#clip0_297039_1139)">
+<path d="M9 9C10.6575 9 12 7.6575 12 6C12 4.3425 10.6575 3 9 3C7.3425 3 6 4.3425 6 6C6 7.6575 7.3425 9 9 9ZM9 10.5C6.9975 10.5 3 11.505 3 13.5V14.25C3 14.6625 3.3375 15 3.75 15H14.25C14.6625 15 15 14.6625 15 14.25V13.5C15 11.505 11.0025 10.5 9 10.5Z" fill="#2E2F42"/>
 </g>
 <defs>
-<clipPath id="clip0_636413_142">
+<clipPath id="clip0_297039_1139">
 <rect width="18" height="18" fill="white"/>
 </clipPath>
 </defs>
@@ -176,16 +176,15 @@
 <rect width="18" height="24" fill="white"/>
 </clipPath>
 </defs>
-</svg></symbol>
+</svg>
+</symbol>
 <symbol id="checkbox" viewBox="0 0 32 32"><path d="M27 4 12 19l-7-7-5 5 12 12L32 9z"/></symbol>
 <symbol>
-<svg xmlns="http://www.w3.org/2000/svg" id="checkbox" width="16" height="16" viewBox="0 0 16 16" fill="none">
-  <rect x="0.5" y="0.5" width="15" height="15" rx="1.5" stroke="#2E2F42" stroke-opacity="0.4"/>
-</svg></symbol>
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="subscribe-arrow">
+<g id="arrow">
 <path id="icon send" d="M24 2L0 13.25L7.66994 15.6172L19.5 6.375L10.5017 16.4913L10.509 16.4936L10.5 16.4913V22L14.8013 17.8183L20.2501 19.5L24 2Z" fill="white"/>
 </g>
 </svg>
+</symbol>
 </defs>
 </svg>
