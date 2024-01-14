@@ -996,9 +996,6 @@ letter-spacing: 0.48px;
    margin-bottom: 24px;
    justify-content: center;
    align-items: center;
-}
-
-.privacy-policy{
    font-size: 12px;
    line-height: 1.17;
    letter-spacing: 0.04em;
@@ -1006,8 +1003,8 @@ letter-spacing: 0.48px;
    margin-bottom: 0;
    justify-content: center;
    align-items: center;
-
 }
+
 
 .checkbox-div{
    margin-bottom: 24px;
@@ -1033,7 +1030,9 @@ stroke: var(--OCEAN, #404BBF);
 cursor: pointer;
 }
 
-#user-privacy:checked ~ .privacy-policy .privacy-policy-span {
+
+
+.checkbox-input:checked + .privacy-policy span:first-child{
    background-color: var(--ocean);
    border: none;
    fill: var(--cloud)
